@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="first site">
+    <meta name="description" content="site/resume">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site/resume</title>
+    <link rel="stylesheet" href="resume_2.css">
+</head>
+<body>
+    <div class="container">
+    
+        <div class="info">
+            <img src="https://sun9-39.userapi.com/impf/X6OJr1hA5k0ig6t4BJ1SIvRZ2GFyRKGr6DXHTw/ZnEXdQ_hjZk.jpg?size=1080x1080&quality=95&sign=7460c3c268816c048ad259195daaa359&type=album" alt="моя фотография">
+                            
+            <!-- тег article используется для любых текстов ,а меню слева или справа лучше положить в тег aside  -->
+            <div class="info-text">                  
+                <h1> Рылов Вадим</h1>
+                            
+                <p>Привет я только недавно стал учиться програмированию и начал с курса по HTML&CSS, с помощью которого, я и написал этот сайт, мне не легко даются уроки этого курса, но я буду стараться и попытаюсь выжать максимум пользы из этого курса.</p>
+                            
+                <p>Я работаю грузчиком диванов и очень хотел бы открыть для себя, что-то новое, посмотреть на жизнь, под другим углом.</p> 
+            </div>
+        </div>
+            <h4>список социальных сетей</h4>
+            <!-- target="_blank" для того чтобы открыть ссылку в новой вкладке -->
+            <nav>
+                <a href="https://web.telegram.org/z/" target="_blank">Telegram</a>
+            |
+                <a href="https://vk.com/dzangogo" target="_blank">Vkontakte</a>
+            </nav>
+        
+            <div class="card bg-color1">
+                <h2>Мои хобби</h2>
+                <ol class="lists" >
+                <li>Кросфит</li>
+                <li>Капоэйра</li>
+                <li>Бальные танцы</li>
+                </ol>
+            </div>  
+            <div class="card bg-color2">
+                <h2>Опыт работы</h2>
+            
+                <table class="table">
+                    <Thead>
+                        <tr>
+                            <th>название</th>
+                            <th>должность</th>
+                            <th>год</th>
+                        </tr>
+                    </Thead>
+                    <tbody>
+                        <tr>
+                            <td>Автомойка</td>
+                            <td>Оператор конвеера</td>
+                            <td>2017-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Столовая</td>
+                            <td>Ночной повар</td>
+                            <td>2019-2022</td>
+                        </tr>
+                        <tr>
+                            <td>MZ-5</td>
+                            <td>транспортировщик</td>
+                            <td>2022-сейчас</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        
+            <!-- placeholder создает полупрозрачный текст в поле для ввода -->
+        <form action="" class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name2">Ваше имя:</label>
+                    <input type="text" id="name2"
+                    placeholder="Введите имя">
+                </div>
+                <div  class="form-group">
+                    <label for="email">Ваш емэйл:</label>
+                    <input type="email" id="email"
+                    placeholder="введите email">
+                </div>
+            </div>
+            <div  class="form-group">
+                <label for="name">Ваше сообщение:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>
+            <input class="btn" type="submit" value="Отправить">
+            <div  class="form-group">
+                <label for="ocenka"> оцените пожалуйста мою первую работу</label>
+                <input type="radio"> 1
+                <input type="radio"> 2
+                <input type="radio"> 3
+                <input type="radio"> 4
+                <input type="radio"> 5
+            </div>
+        </form>
+    </div>
+ <br>
+ <br>
+  <br>
+ <br>
+ <br>
+
+
+    
+</body>
+</html>
